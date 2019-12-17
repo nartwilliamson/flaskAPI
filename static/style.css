@@ -1,0 +1,21 @@
+/* static/style.css */
+
+h1 {
+    color: navajowhite;
+    font-variant-caps: all-small-caps;
+    font-size: 46px;
+}
+
+h3 {
+  color: #808B96;
+  font-size: 36px;
+}
+
+li {
+  color:#F4D03F;
+  font-size: 50px;
+}
+
+body {
+    background: #273746  ;
+}

@@ -1,0 +1,33 @@
+<!-- templates/index.html -->
+<html>
+  <head>
+    <title>GLANCE.AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <h1>{{message}}</h1>
+
+    <h3>On sale this week alone:</h3>
+    <ol>
+      <li>Flask By Example</li>
+      <li>Uncluttered Flask</li>
+      <li>Flask From First Principles</li>
+    </ol>
+
+    <h4 id="version" style="color:#CCD1D1;">Backbone</h4>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Load color palettes -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+    <!-- Create a div where the graph will take place -->
+    <div id="my_dataviz">
+      <h4>Test</h4>
+      <script>    d3.select('h4').style('color', 'darkblue');    d3.select('h4').style('font-size', '24px');</script>
+    </div>
+ 
+ 
+  </body>
+</html>
+
